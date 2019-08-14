@@ -181,11 +181,12 @@ input[type=text] {
   width: 10em;
   
 }
-# input-email {
-  float: right;
-  width: 10em
+#input-email {
+ float: right;
+ width: 10em
 }
 #input-pass{
   float: right;
   width: 10em
+  
 }
