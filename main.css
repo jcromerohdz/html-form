@@ -177,15 +177,15 @@ input[type=text] {
     font-size: 15px;
 }
 #input-phone{
-  float: left;
+  float: right;
   width: 10em;
   
 }
 # input-email {
-  float: left;
+  float: right;
   width: 10em
 }
 #input-pass{
-  float: left;
+  float: right;
   width: 10em
 }
