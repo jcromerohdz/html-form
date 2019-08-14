@@ -176,16 +176,16 @@ input[type=text] {
 #a-1{
     font-size: 15px;
 }
-#input phone{
+#input-phone{
   float: left;
   width: 10em;
   
 }
-# input email {
+# input-email {
   float: left;
   width: 10em
 }
-#input pass{
+#input-pass{
   float: left;
   width: 10em
 }
