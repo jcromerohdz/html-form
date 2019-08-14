@@ -20,7 +20,7 @@ body {
     height: 40px;
 }
 
-.cl-3 {
+#cl-3 {
     display: flex;
     flex-wrap: wrap;
   }
@@ -56,7 +56,7 @@ body {
     padding-right: 5%;
 }
 
- .flex-rows-child {
+ #flex-rows-child {
 
     height: 60px;
     flex-grow: 1;
@@ -112,7 +112,7 @@ body {
     padding-right: 5%;
 }
 
-input[type=text] {
+#input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -135,7 +135,7 @@ input[type=text] {
 
 }
 
-li {
+#li {
     display: inline-block;
 }
 
@@ -182,7 +182,7 @@ li img {
     font-size: 17px;
 }
 
-ul {
+#ul {
     list-style-type: none;
     height: 60px;
     margin: 0;
@@ -193,7 +193,7 @@ ul {
 
 }
 
-ul a {
+#ul a {
     text-decoration: none;
     color: royalblue;
     width: 100px;
@@ -211,3 +211,4 @@ ul a {
     left: 25px;
     top: 90px;
 }
+
