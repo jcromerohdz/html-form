@@ -177,5 +177,15 @@ input[type=text] {
     font-size: 15px;
 }
 #input phone{
+  float: left;
+  width: 10em;
+  
 }
-#
+#email user{
+  float: left;
+  width: 10em
+}
+#password{
+  float: left;
+  width: 10em
+}
