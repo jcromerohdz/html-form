@@ -210,12 +210,12 @@ input[type=text] {
     font-size: 18px;
 }
 
-#col-3{
+/*#col-3{
     display: table;
     width: 100%; /*Optional*/
     table-layout: fixed; /*Optional*/
-    border-spacing: 10px;
-}
+    border-spacing: 10px;*/
+}*/
 
 /* .column{
     display: table-cell;
