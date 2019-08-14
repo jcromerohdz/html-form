@@ -203,21 +203,21 @@ input[type=text] {
 }
 
 #p-already{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #ius-hosted-ui-navegation-account-recovery-link{
-    font-size: 18px;
+    font-size: 16px;
 }
 
-/*#col-3{
-    display: table;
-    width: 100%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-    border-spacing: 10px;*/
-}*/
+.cl-3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-/* .column{
-    display: table-cell;
-    background-color: red; /*Optional*/
-} */
+  .flex-rows-child {
+
+    height: 60px;
+    flex-grow: 1;
+    margin-bottom: 2%;
+}
