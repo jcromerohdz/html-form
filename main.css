@@ -1,135 +1,137 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color:#eeeff2;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeff2;
 }
 
 #sidebar {
-  /* float: right; */
-  position:absolute; 
-  left:1200px; 
-  top:150px;
-  
+    /* float: right; */
+    position: absolute;
+    left: 1200px;
+    top: 150px;
+
 }
 
 #videos {
-  /* float: left;
+    /* float: left;
   top: 120px; */
-  position:absolute; 
-  left:25px; 
-  top:90px;
+    position: absolute;
+    left: 25px;
+    top: 90px;
 }
 
 ul {
-  list-style-type: none;
-  height: 60px;
-  margin: 0;
-  padding: 5px;
-  text-align: center;
-  display:inline;
-  width:150%;
+    list-style-type: none;
+    height: 60px;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    display: inline;
+    width: 150%;
 
 }
 
 li {
-  display: inline-block;
+    display: inline-block;
 }
 
 ul a {
-  text-decoration: none;
-  color: royalblue;
-  width: 100px;
-  display: block;
-  padding: 15px;
-  font-size: 17px;
-  font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: royalblue;
+    width: 100px;
+    display: block;
+    padding: 15px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 li img {
-  padding: 1px;
+    padding: 1px;
 }
 
-#left{
-  display: inline;
-  float: left;
+#left {
+    display: inline;
+    float: left;
 
 }
 
-#col-2{
-  position:absolute; 
-  left:700px; 
-  top:80px;
-  height: 200px;
-  width: 25%;
-  font-size: 20px;
-  font-family:Arial, Helvetica, sans-serif;
-  text-align: center;
+#col-2 {
+    position: absolute;
+    left: 700px;
+    top: 80px;
+    height: 200px;
+    width: 25%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 
 
-#form-container{
-  background: white;
-  border-style: solid;
-  border-color: darkgray;
-  border-width: 1px;
-  
-  
+#form-container {
+    background: white;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+
+
 }
 
-#footer-form{
-  background: #eeeff2;
-  width: 100%;
-  height: 100%;
-  /* border-style: solid;
+#footer-form {
+    background: #eeeff2;
+    width: 100%;
+    height: 100%;
+    /* border-style: solid;
   border-width: 0.2px; */
 }
-#col-3{
-  position:absolute; 
-  left:1400px; 
-  top:30px;
-  height: 200px;
-  width: 25%;
-  font-size: 25px;
+
+#col-3 {
+    position: absolute;
+    left: 1400px;
+    top: 30px;
+    height: 200px;
+    width: 25%;
+    font-size: 25px;
 
 
 }
 
-#logo{
+#logo {
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto
 }
 
-#items{
+#items {
     display: block;
     margin-left: auto;
-    margin-right: auto 
-}
-#sign-in-btn{
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-size: 17px;
-  border:3px;
-  border-bottom-color: black;
-  border-radius: 5px;
-  background:steelblue;
+    margin-right: auto
 }
 
-#btn-form{
+#sign-in-btn {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 17px;
-    border:3px;
+    border: 3px;
     border-bottom-color: black;
     border-radius: 5px;
-    background:steelblue;
+    background: steelblue;
+}
+
+#btn-form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;
+    border: 3px;
+    border-bottom-color: black;
+    border-radius: 5px;
+    background: steelblue;
     width: 100%;
     height: 40px;
-  }
+}
 
-#div-btn-form{
+#div-btn-form {
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -139,62 +141,58 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-  }
+}
 
-  #input-email {
+#input-email {
     padding-left: 5%;
-    padding-right: 5%; 
-  }
+    padding-right: 5%;
+}
 
-  #input-phone {
+#input-phone {
     padding-left: 5%;
-    padding-right: 5%; 
-  }
+    padding-right: 5%;
+}
 
-  #input-pass {
+#input-pass {
     padding-left: 5%;
-    padding-right: 5%; 
-  }
-  #corner-btn{
-     display: inline;
-    
-  }
+    padding-right: 5%;
+}
 
-  #footer p{
-      font-size: 14px;
-  }
+#corner-btn {
+    display: inline;
 
-  #footer-form p{
+}
+
+#footer p {
     font-size: 14px;
 }
-#txt-1{
+
+#footer-form p {
+    font-size: 14px;
+}
+
+#txt-1 {
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
     font-size: 17px;
 }
-#a-1{
+
+#a-1 {
     font-size: 15px;
 }
-#input-phone{
-  float: right;
-  width: 10em;
-  text-align: left;
-  height: 50px;
-   
-  
+
+#input-lb-phone {
+    width: 100%;
+    padding-right: 220px;
 }
-#input-email {
- float: right;
- width: 10em;
- text-align: lef;
- height: 50px;
- 
+
+#input-lb-email {
+    width: 100%;
+    padding-right: 300px;
 }
-#input-pass{
-  float: right;
-  width: 10em;
-  text-align: left;
-  height: 50px;
-  
+
+#input-lb-pass {
+    width: 100%;
+    padding-right: 340px;
 }
