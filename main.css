@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color:whitesmoke;
+  background-color:#eeeff2;
 }
 
 #sidebar {
@@ -79,7 +79,7 @@ li img {
 }
 
 #footer-form{
-  background: whitesmoke;
+  background: #eeeff2;
   width: 100%;
   height: 100%;
   /* border-style: solid;
