@@ -179,8 +179,7 @@ input[type=text] {
 #input-phone{
   float: right;
   width: 10em;
-  display: table-cell;
-  vertical-align: middle;
+  text-align: left;
   height: 50px;
    
   
@@ -188,16 +187,14 @@ input[type=text] {
 #input-email {
  float: right;
  width: 10em
- display: table-cell;
- vertical-align: middle;
+ text-align: lef;
  height: 50px;
  
 }
 #input-pass{
   float: right;
   width: 10em
-  display: table-cell;
-  vertical-align: middle;
+  text-align: left;
   height: 50px;
 
   
