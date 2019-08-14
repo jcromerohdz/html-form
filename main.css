@@ -62,6 +62,9 @@ li img {
   top:80px;
   height: 200px;
   width: 25%;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 
@@ -82,10 +85,13 @@ li img {
 }
 #col-3{
   position:absolute; 
-  left:1200px; 
-  top:40px;
+  left:1400px; 
+  top:30px;
   height: 200px;
   width: 25%;
+  font-size: 25px;
+
+
 }
 
 #logo{
@@ -146,4 +152,8 @@ input[type=text] {
   #input-pass {
     padding-left: 5%;
     padding-right: 5%; 
+  }
+  #corner-btn{
+     display: inline;
+    
   }
