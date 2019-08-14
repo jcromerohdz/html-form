@@ -187,7 +187,7 @@ input[type=text] {
 }
 #input-email {
  float: right;
- width: 10em
+ width: 10em;
  display: table-cell;
  vertical-align: middle;
  height: 50px;
@@ -195,7 +195,7 @@ input[type=text] {
 }
 #input-pass{
   float: right;
-  width: 10em
+  width: 10em;
   display: table-cell;
   vertical-align: middle;
   height: 50px;
