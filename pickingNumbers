@@ -1,0 +1,9 @@
+maximun = 0
+    diff = 1
+    
+    for i in a:
+        num1 = a.count(i)
+        num2 = a.count(i-diff) # Find the diference
+        maximun =max(maximun, num1 + num2)
+    
+    return maximun
