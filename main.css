@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeff2;
+}
+
+#sidebar {
+    /* float: right; */
+    position: absolute;
+    left: 1200px;
+    top: 150px;
+
+}
+
+#videos {
+    /* float: left;
+  top: 120px; */
+    position: absolute;
+    left: 25px;
+    top: 90px;
+}
+
+ul {
+    list-style-type: none;
+    height: 60px;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    display: inline;
+    width: 150%;
+
+}
+
+li {
+    display: inline-block;
+}
+
+ul a {
+    text-decoration: none;
+    color: royalblue;
+    width: 100px;
+    display: block;
+    padding: 15px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+li img {
+    padding: 1px;
+}
+
+#left {
+    display: inline;
+    float: left;
+
+}
+
+#col-2 {
+    position: absolute;
+    left: 700px;
+    top: 80px;
+    height: 200px;
+    width: 25%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+#form-container {
+    background: white;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+
+
+}
+
+#footer-form {
+    background: #eeeff2;
+    width: 100%;
+    height: 50px;
+    /* border-style: solid;
+  border-width: 0.2px; */
+}
+
+#col-3 {
+    position: absolute;
+    left: 1400px;
+    top: 30px;
+    height: 200px;
+    width: 25%;
+    font-size: 25px;
+
+
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#items {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#sign-in-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;
+    border: 3px;
+    border-bottom-color: black;
+    border-radius: 5px;
+    background: steelblue;
+    height: 40px;
+}
+
+#btn-form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;
+    border: 3px;
+    border-bottom-color: black;
+    border-radius: 5px;
+    background: steelblue;
+    width: 100%;
+    height: 40px;
+}
+
+#div-btn-form {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#input-email {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#input-phone {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#input-pass {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#corner-btn {
+    display: inline;
+
+}
+
+#footer p {
+    font-size: 14px;
+}
+
+#footer-form p {
+    font-size: 14px;
+}
+
+#txt-1 {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 17px;
+}
+
+#a-1 {
+    font-size: 15px;
+}
+
+#input-lb-phone {
+    width: 100%;
+    padding-right: 220px;
+}
+
+#input-lb-email {
+    width: 100%;
+    padding-right: 300px;
+}
+
+#input-lb-pass {
+    width: 100%;
+    padding-right: 340px;
+}
+
+#p-agree{
+    font-size: 15px;
+}
+
+#p-already{
+    font-size: 18px;
+}
+
+#ius-hosted-ui-navegation-account-recovery-link{
+    font-size: 18px;
+}
+
+#col-3{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px;
+}
+
+/* .column{
+    display: table-cell;
+    background-color: red; /*Optional*/
+} */
