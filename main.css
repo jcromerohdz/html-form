@@ -6,7 +6,7 @@ body {
     background-color: #eeeff2;
 }
 
-#container {
+.container {
     display: flex;
     
   /* width: 100%; 
@@ -54,10 +54,10 @@ li img {
 
 }
 
-#col-1 {
+.col-1 {
     display: flex;
     flex:1;
-    flex-basis: 10%;
+    flex-basis: 2%;
     flex-direction: column;
     justify-content: flex-start;
     /* right: 25%;
@@ -67,11 +67,11 @@ li img {
 
 }
 
-#col-2 {
+.col-2 {
   
     flex:1;
     order:2;
-    flex-basis: 2%;
+    flex-basis: 1%;
     justify-content: flex-end;
 
     
@@ -82,11 +82,11 @@ li img {
     width: 25%;
     font-size: 20px; */ 
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    /* text-align: center; */
     
 }
 
-#col-3 {
+.col-3 {
   
     display: flex;
     flex:1;
@@ -242,10 +242,35 @@ input[type=text] {
 #footer{
     display: flex;
     flex:1;
-    padding-top: 24%;
+    padding-top: 2%;
     width: 100%;
     justify-content: center;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+}
+
+.email{
+    top: 0;
+    right: 100%;
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+.phone{
+    top: 0;
+    right: 100%;
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+.pass{
+    top: 0;
+    right: 100%;
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+.textCenter{
+    text-align: center;
 }

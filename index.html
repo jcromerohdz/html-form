@@ -10,9 +10,9 @@
     </head>
 
     <body>
-        <div id="container">
-            <div id="col-1"></div>
-            <div id="col-2">
+        <div class="container">
+            <div class="col-1"></div>
+            <div class="col-2">
                 <div id="content-top">
                     <div>
                         <img src="./img/oneImageLogo.png" alt="intuit" id="logo">
@@ -22,10 +22,10 @@
                 <div id="form-container">
                     <div>
                         <div>
-                            <h1>Create an Intuit account</h1>
+                            <h1 class="textCenter">Create an Intuit account</h1>
                         </div>
                         <div>
-                            <p id="txt-1">One account for averything Intuit, Including Ming. <br/>
+                            <p id="txt-1" class="textCenter">One account for averything Intuit, Including Ming. <br/>
                                  <a id="a-1" href="#">Learn more</a>
                             </p>
                         </div>
@@ -35,44 +35,38 @@
 
                     <div>
                         <form idaction="">
-                            <div>
-                                <label for="emailUser" id="input-lb-email">Email address</label>
-                                <div id="input-email">
-                                    <input type="text">
-                                </div>
-
+                            <div class="email">
+                                <label for="emailUser">Email address</label>
+                                <input type="text">  
                             </div>
-                            <div>
-                                <label for="phone" id="input-lb-phone">Phone (recommended)</label>
-                                <div id="input-phone">
-                                    <input type="text">
-                                </div>
+                            <div class="phone">
+                                <label for="phone">Phone (recommended)</label>
+                                <input type="text">
+                                
                             </div>
-                            <div>
-                                <label for="password" id="input-lb-pass">Password</label>
-                                <div id="input-pass">
-                                    <input type="text">
-                                </div>
+                            <div class="pass">
+                                <label for="password">Password</label>
+                                <input type="text">
                             </div>
                             <div id="div-btn-form">
                                 <button id="btn-form">Create Account</button>
                             </div>
                             <em>
-                                <p id="p-agree">By clicking Sign in, you agree to our <a href="#">terms</a>
+                                <p id="p-agree" class="textCenter">By clicking Sign in, you agree to our <a href="#">terms</a>
                                     and have read and acknowlegement our <a href="">Privacy Statement.</a></p>
                             </em>
                         </form>
                     </div>
                     <div id="footer-form">
-                        <p>Invisible reCAPTCHA by Google <a href=""> Privacy Policy</a> and <a href=""> Terms of
+                        <p class="textCenter">Invisible reCAPTCHA by Google <a href=""> Privacy Policy</a> and <a href=""> Terms of
                                 Use</a>.</p>
                     </div>
                 </div>
                
             </div>
-            <div id="col-3" class="cl-3">
+            <div class="col-3" class="cl-3">
                 <div class="flex-rows-child">
-                    <p id="p-already">Already have an Intuit account? <br/>
+                    <p id="p-already" class="textCenter">Already have an Intuit account? <br/>
                         <a id="ius-hosted-ui-navegation-account-recovery-link" href="#">I forgot my user ID or Password</a>
                     </p>
                     
