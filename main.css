@@ -8,14 +8,9 @@ body {
 
 .container {
     display: flex;
-    
-  /* width: 100%; 
-    height: 100%; */
-    /* flex-flow: row nowrap; */
     justify-content: space-between;
     align-items: flex-start;
-    align-items: flex-end;
-    
+    align-items: flex-end;   
 }
 
 ul {
@@ -41,7 +36,6 @@ ul a {
     padding: 15px;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 li img {
@@ -51,7 +45,6 @@ li img {
 #left {
     display: inline;
     float: left;
-
 }
 
 .col-1 {
@@ -60,30 +53,16 @@ li img {
     flex-basis: 2%;
     flex-direction: column;
     justify-content: flex-start;
-    /* right: 25%;
-    width: 37%; */
     order:1;
-
-
 }
 
 .col-2 {
-  
     flex:1;
     order:2;
     flex-basis: 1%;
     justify-content: flex-end;
-
-    
     margin-top: 7%;
-    /* left: 900px;
-    top: 80px;
-    height: 200px;
-    width: 25%;
-    font-size: 20px; */ 
     font-family: Arial, Helvetica, sans-serif;
-    /* text-align: center; */
-    
 }
 
 .col-3 {
@@ -95,16 +74,12 @@ li img {
     align-self: flex-start;
     font-size: 25px;
     order:3;
-
-
 }
 
 #col-2 h1{
     display:flex;
     font-size: 30px;
 }
-
-
 
 #form-container {
     background: white;
@@ -121,7 +96,6 @@ li img {
     height: 50px;
  
 }
-
 
 
 #logo {
@@ -173,20 +147,6 @@ input[type=text] {
     box-sizing: border-box;
 }
 
-#input-email {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-#input-phone {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-#input-pass {
-    padding-left: 5%;
-    padding-right: 5%;
-}
 
 #corner-btn {
     display: inline;
@@ -212,20 +172,6 @@ input[type=text] {
     font-size: 15px;
 }
 
-#input-lb-phone {
-    width: 100%;
-    padding-right: 220px;
-}
-
-#input-lb-email {
-    width: 100%;
-    padding-right: 300px;
-}
-
-#input-lb-pass {
-    width: 100%;
-    padding-right: 340px;
-}
 
 #p-agree{
     font-size: 15px;
