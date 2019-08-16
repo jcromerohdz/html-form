@@ -10,89 +10,90 @@
     </head>
 
     <body>
-        <div id="container">
-            <div id="col-1"></div>
-            <div id="col-2">
+        <div class="container">
+            <div class="col-1"></div>
+            <div class="col-2">
                 <div id="content-top">
                     <div>
-                        <img src="./img/intuit_logo.jpg" alt="intuit" id="logo">
+                        <img src="./img/oneImageLogo.png" alt="intuit" id="logo">
                     </div>
-                    <div id="items">
-                        <ul>
-                            <li><a href="#"> <img src="./img/mint.jpg" alt=""></a> </li>
-                            <li><a href="#"><img src="./img/quickboks.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="./img/turbotax.jpg" alt=""></a></li>
-                        </ul>
-                    </div>
+                    
                 </div>
                 <div id="form-container">
                     <div>
                         <div>
-                            <h1>Create an Intuit account</h1>
+                            <h1 class="textCenter">Create an Intuit account</h1>
                         </div>
                         <div>
-                            <p id="txt-1">One account for averything Intuit, Including Ming.
-                        </div>
-                        <div>
-                            <a id="a-1" href="#">Learn more</a></p>
+                            <p id="txt-1" class="textCenter">One account for averything Intuit, Including Ming. <br/>
+                                 <a id="a-1" href="#">Learn more</a>
+                            </p>
                         </div>
 
 
                     </div>
 
                     <div>
-                        <form idaction="">
-                            <div>
-                                <label for="emailUser" id="input-lb-email">Email address</label>
-                                <div id="input-email">
-                                    <input type="text">
-                                </div>
-
+                        <form  action="post">
+                            <div class="email">
+                                <label for="emailUser">Email address</label>
+                                <input id="emailUser" type="text">  
                             </div>
-                            <div>
-                                <label for="phone" id="input-lb-phone">Phone (recommended)</label>
-                                <div id="input-phone">
-                                    <input type="text">
-                                </div>
+                            <div class="phone">
+                                <label for="phone">Phone (recommended)</label>
+                                <input id="phone" type="text">
+                                
                             </div>
-                            <div>
-                                <label for="password" id="input-lb-pass">Password</label>
-                                <div id="input-pass">
-                                    <input type="text">
-                                </div>
+                            <div class="pass">
+                                <label for="password">Password</label>
+                                <input id="password" type="text">
                             </div>
                             <div id="div-btn-form">
                                 <button id="btn-form">Create Account</button>
                             </div>
-                            <em>
-                                <p id="p-agree">By clicking Sign in, you agree to our <a href="#">terms</a>
-                                    and have read and acknowlegement our <a href="">Privacy Statement.</a></p>
-                            </em>
+                            <div>
+                                <p id="p-agree" class="textCenter">
+                                <em>By clicking Sign in, you agree to our <a href="#">terms</a>
+                                    and have read and acknowlegement our <a href="">Privacy Statement.</a>
+                                </em>
+                                </p>
+                            </div>
                         </form>
                     </div>
                     <div id="footer-form">
-                        <p>Invisible reCAPTCHA by Google <a href=""> Privacy Policy</a> and <a href=""> Terms of
+                        <p class="textCenter">Invisible reCAPTCHA by Google <a href=""> Privacy Policy</a> and <a href=""> Terms of
                                 Use</a>.</p>
                     </div>
                 </div>
-                <div id="footer">
-                    <ul>
-                        <p>&copy; Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and
-                            Mint are registered trademarks of Intuit Inc.
-                            Terms and conditions, features, support, pricing, and service options subject to change
-                            without notice.</p>
-                    </ul>
-                </div>
+               
             </div>
-            <div id="col-3" class="cl-3">
+            <div class="col-3">
                 <div class="flex-rows-child">
-                    <p id="p-already">Already have an Intuit account?</p>
-                    <a id="ius-hosted-ui-navegation-account-recovery-link" href="#">I forgot my user ID or Password</a>
+                    <p id="p-already" class="textCenter">Already have an Intuit account? <br/>
+                        <a id="ius-hosted-ui-navegation-account-recovery-link" href="#">I forgot my user ID or Password</a>
+                    </p>
+                    
+                    
+                </div>
+                <div>
                     <button id="sign-in-btn">Sign in</button>
                 </div>
-                
+
             </div>
+
+            
         </div>
+
+        <footer>    
+        <div id="footer">
+    
+                <p>&copy; Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and
+                    Mint are registered trademarks of Intuit Inc.<br/>
+                    Terms and conditions, features, support, pricing, and service options subject to change
+                    without notice.</p>
+            
+        </div>
+    </footer>
     </body>
 
     </html>

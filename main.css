@@ -6,26 +6,18 @@ body {
     background-color: #eeeff2;
 }
 
-#container {
+.container {
     display: flex;
-    
-  /* width: 100%; 
-    height: 100%; */
-    /* flex-flow: row nowrap; */
     justify-content: space-between;
     align-items: flex-start;
-    align-items: flex-end;
-    
+    align-items: flex-end;   
 }
 
 ul {
+    display: inline;
     list-style-type: none;
-    height: 60px;
-    margin: 0;
     padding: 5px;
     text-align: center;
-    display: inline;
-    width: 150%;
 
 }
 
@@ -41,7 +33,6 @@ ul a {
     padding: 15px;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 li img {
@@ -49,57 +40,43 @@ li img {
 }
 
 #left {
-    display: inline;
+    /* display: inline; */
     float: left;
-
 }
 
-#col-1 {
+.col-1 {
     display: flex;
     flex:1;
-    flex-basis: 10%;
-    /* right: 25%;
-    width: 37%; */
-    order:2;
-
-
-}
-
-#col-2 {
-  
-    flex:1;
-    order:1;
     flex-basis: 2%;
-    
-    /* margin-top: 7%;
-    left: 900px;
-    top: 80px;
-    height: 200px;
-    width: 25%;
-    font-size: 20px; */
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    
+    flex-direction: column;
+    justify-content: flex-start;
+    order:1;
 }
 
-#col-3 {
+.col-2 {
+    flex:1;
+    order:2;
+    flex-basis: 1%;
+    justify-content: flex-end;
+    margin-top: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-3 {
   
     display: flex;
     flex:1;
     width: 25%;
     justify-content: flex-end;
+    align-self: flex-start;
     font-size: 25px;
-    order:2;
-
-
+    order:3;
 }
 
-#col-2 h1{
+/* #col-2 h1{
     display:flex;
     font-size: 30px;
-}
-
-
+} */
 
 #form-container {
     background: white;
@@ -116,7 +93,6 @@ li img {
     height: 50px;
  
 }
-
 
 
 #logo {
@@ -168,20 +144,6 @@ input[type=text] {
     box-sizing: border-box;
 }
 
-#input-email {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-#input-phone {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-#input-pass {
-    padding-left: 5%;
-    padding-right: 5%;
-}
 
 #corner-btn {
     display: inline;
@@ -207,20 +169,6 @@ input[type=text] {
     font-size: 15px;
 }
 
-#input-lb-phone {
-    width: 100%;
-    padding-right: 220px;
-}
-
-#input-lb-email {
-    width: 100%;
-    padding-right: 300px;
-}
-
-#input-lb-pass {
-    width: 100%;
-    padding-right: 340px;
-}
 
 #p-agree{
     font-size: 15px;
@@ -237,7 +185,7 @@ input[type=text] {
 #footer{
     display: flex;
     flex:1;
-    padding-top: 24%;
+    padding-top: 2%;
     width: 100%;
     justify-content: center;
     text-align: center;
@@ -245,6 +193,27 @@ input[type=text] {
     font-size: 15px;
 }
 
+.email{
+    top: 0;
+    right: 100%;
+    padding-left: 5%;
+    padding-right: 5%
+}
 
+.phone{
+    top: 0;
+    right: 100%;
+    padding-left: 5%;
+    padding-right: 5%
+}
 
+.pass{
+    top: 0;
+    right: 100%;
+    padding-left: 5%;
+    padding-right: 5%
+}
 
+.textCenter{
+    text-align: center;
+}
